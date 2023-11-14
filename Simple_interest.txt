@@ -1,0 +1,24 @@
+#include <stdio.h>
+int intrest();
+int intrest()
+{
+    int p;
+    int t;
+    int r;
+    int si;
+    printf("Enter the principal amount:");
+    scanf("%d", &p);
+    printf("Enter the time:");
+    scanf("%d", &t);
+    printf("Enter the rate of intrest:");
+    scanf("%d", &r);
+    si = (p * t * r) / 100;
+    return (si);
+}
+int main()
+{
+    int A;
+    A = intrest();
+    printf("The value of simpleintrest is=%d", A);
+    return 0;
+}
