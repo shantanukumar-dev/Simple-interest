@@ -1,6 +1,6 @@
 #include <stdio.h>
-int intrest();
-int intrest()
+int interest();
+int interest()
 {
     int p;
     int t;
@@ -10,7 +10,7 @@ int intrest()
     scanf("%d", &p);
     printf("Enter the time:");
     scanf("%d", &t);
-    printf("Enter the rate of intrest:");
+    printf("Enter the rate of interest:");
     scanf("%d", &r);
     si = (p * t * r) / 100;
     return (si);
@@ -19,6 +19,6 @@ int main()
 {
     int A;
     A = intrest();
-    printf("The value of simpleintrest is=%d", A);
+    printf("The value of simple interest is=%d", A);
     return 0;
 }
